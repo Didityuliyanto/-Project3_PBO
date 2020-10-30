@@ -16,7 +16,7 @@ public class Game2 {
     int score;
     
     void input(){
-        tebak = (int) (Math.random() * 2 ); //acak angka dari 0-100
+        tebak = (int) (Math.random() * 101 ); //acak angka dari 0-100
         score = 100;
         Scanner input = new Scanner(System.in);
         System.out.println("Hai... Nama saya Mr. Lappie, saya telah memiliki sebuah bilangan bulat secara acak antara 0s/d 100.");
